@@ -1,0 +1,20 @@
+.m-btn{
+    text-align: center;
+}
+
+.hotel-list>img{
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.m-btn > li {
+    color: #ffffff;
+    width: 200px;
+    font-size: 25px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px silver solid;
+    /*border-right: 0;*/
+    border-radius: 5px;
+}

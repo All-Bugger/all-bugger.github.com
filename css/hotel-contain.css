@@ -1,8 +1,12 @@
+li{
+    list-style: none;
+}
+
 .hotel-list{
     background-color: #0e4980;
-    height: 1000px;
+    height: 740px;
 }
 .hotel-page{
     background-color: #2aabd2;
-    height: 1000px;
+    height: 740px;
 }
