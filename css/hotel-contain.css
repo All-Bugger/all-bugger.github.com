@@ -6,9 +6,10 @@ li{
     background-color: #0e4980;
     height: 60px;
     width: 100%;
-    position: fixed !important;
+    position: fixed;
+    border-radius: 0;
 }
 .hotel-page{
     /*background-color: #2aabd2;*/
-    height: 1740px;
+    height: 740px;
 }
