@@ -1,6 +1,3 @@
-.m-btn {
-    text-align: center;
-}
 
 .hotel-list > img {
     width: 150px;
@@ -8,15 +5,22 @@
     margin: 10px auto;
 }
 
-.m-btn > li {
+/* .nav-item {
+    
+} */
+
+/* li>a {
     color: #ffffff;
-    width: 200px;
-    font-size: 25px;
+    font-size: 20px;
     margin: 10px auto;
     padding: 10px;
     border: 1px silver solid;
-    /*border-right: 0;*/
     border-radius: 5px;
+} */
+
+.hotel-list > ul{
+    width: 100%;
+    padding-left: 0;
 }
 
 .hotel-list > .m-circle {
