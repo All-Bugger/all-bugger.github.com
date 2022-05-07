@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
     <title>酒店预定</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <link rel="stylesheet" href="css/hotel-contain.css">
@@ -11,21 +13,39 @@
 </head>
 <body>
 
-    <div class="hotel-index">
-        <div class="hotel-contain">
-            <div class="hotel-list row text-center">
-                <li class="col-md-1 col-md-offset-1">主页</li>
-                <li class="col-md-1">餐饮美食</li>
-                <li class="col-md-1">酒店预定</li>
+    <nav class="hotel-list navbar navbar-expand-md justify-content-center container bg-secondary navbar-dark">
+        <!-- <div class="hotel-list row text-center "> -->
+            <ul class="navbar-nav">
+                <li class="col-md-1 col-md-offset-1 nav-item">
+                    <a class="nav-link" href="#">主页</a>
+                </li>
+                <li class="col-md-1 nav-item">
+                    <a class="nav-link" href="#">餐饮美食</a>
+                </li>
+                <li class="col-md-1 nav-item">
+                    <a class="nav-link" href="#">酒店预定</a>
+                </li>
                 <div class="hotel-log col-md-4 text-center">
                     <h2>ALL-BUGGER</h2>
                     <h2>HOTEL</h2>
                 </div>
-                <li class="col-md-1">查询订单</li>
-                <li class="col-md-1">体验反馈</li>
-                <li class="col-md-1">关于我们</li>
-                <div class="m-circle"></div>
-            </div>
+                <li class="col-md-1 nav-item">
+                    <a class="nav-link" href="#">查询订单</a>
+                </li>
+                <li class="col-md-1 nav-item">
+                    <a class="nav-link" href="#">体验反馈</a>
+                </li>
+                <li class="col-md-1 nav-item">
+                    <a class="nav-link" href="#">关于我们</a>
+                </li>
+            </ul>
+            <div class="m-circle"></div>
+        <!-- </div> -->
+    </nav>
+    
+    <div class="hotel-index">
+        <div class="hotel-contain">
+            
             <div class="hotel-page">
                 <div class="m-head">
 
