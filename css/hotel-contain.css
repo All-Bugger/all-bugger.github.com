@@ -4,9 +4,11 @@ li{
 
 .hotel-list{
     background-color: #0e4980;
-    height: 740px;
+    height: 60px;
+    width: 100%;
+    position: fixed !important;
 }
 .hotel-page{
     /*background-color: #2aabd2;*/
-    /*height: 740px;*/
+    height: 1740px;
 }
