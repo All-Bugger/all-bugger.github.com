@@ -1,3 +1,6 @@
+.hotel-list {
+  z-index: 1;
+}
 .hotel-list ul {
   width: 100%;
   padding-left: 0;

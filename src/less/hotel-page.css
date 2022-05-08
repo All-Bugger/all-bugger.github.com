@@ -1,6 +1,32 @@
 .hotel-page .sel {
   display: block;
 }
-.hotel-page div {
+.hotel-page > div {
   display: none;
 }
+.hotel-page .hotel-home {
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  background-color: #00ee00;
+  height: 400px;
+}
+.hotel-page .hotel-home .m-head {
+  margin: 0 auto;
+}
+.hotel-page .hotel-home .m-head > h1 {
+  position: relative;
+  top: 100px;
+}
+.hotel-page .hotel-home .m-head .time {
+  display: inline-block;
+  position: relative;
+  top: 200px;
+}
+.hotel-page .hotel-home .m-head .time > div {
+  float: left;
+}
+.hotel-page .hotel-home .m-head .time > div input {
+  border: none;
+}
+/*# sourceMappingURL=hotel-page.css.map */

@@ -1,15 +1,17 @@
-li{
+li {
     list-style: none;
 }
 
-.hotel-list{
+.hotel-list {
     background-color: #0e4980;
     height: 60px;
     width: 100%;
-    position: fixed;
+    position: fixed !important;
+    top: 0;
     border-radius: 0;
 }
-.hotel-page{
+
+.hotel-page {
     /*background-color: #2aabd2;*/
     height: 740px;
 }
