@@ -27,7 +27,7 @@
 
         <nav class="hotel-list navbar navbar-expand-md justify-content-center container bg-secondary navbar-dark">
             <!-- <div class="hotel-list row text-center "> -->
-            <ul class="navbar-nav">
+            <ul class="hotel-list-in navbar-nav">
                 <li class="col-md-1 col-md-offset-1 nav-item">
                     <a class="nav-link" href="#">主页</a>
                 </li>
@@ -66,19 +66,19 @@
                                 <div class="reserve-title">
                                     <span>入住时间</span>
                                 </div>
-                                <input type="date">
+                                <input type="date" id="startTime" max="" min="2022-5-18">
                             </div>
                             <div class="end-time">
                                 <div class="reserve-title">
                                     <span>退房时间</span>
                                 </div>
-                                <input type="date">
+                                <input type="date" id="endTime" max="" min="">
                             </div>
                             <div class="person-num">
                                 <div class="reserve-title">
                                     <span>房间数量</span>
                                 </div>
-                                <input type="text">
+                                <input type="text" id="roomNum" placeholder="请填写房间数量">
                             </div>
                             <button class="serve-book">立即预定</button>
                         </div>
