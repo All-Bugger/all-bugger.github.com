@@ -13,6 +13,7 @@
 }
 .hotel-page .hotel-home .m-head {
   margin: 0 auto;
+  height: 400px;
 }
 .hotel-page .hotel-home .m-head > h1 {
   position: relative;
@@ -54,4 +55,25 @@
   border: none;
   margin: 0 40px 0 60px;
 }
-/*# sourceMappingURL=hotel-page.css.map */
+.hotel-page .hotel-home .m-body {
+  background-color: #00ee00;
+}
+.hotel-page .hotel-home .m-body .m-show {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 30vw;
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  background-image: url(../img/show0.jpg);
+}
+.hotel-page .hotel-home .m-body .m-show input {
+  position: relative;
+  top: 45%;
+  height: 100px;
+  width: 50px;
+  opacity: 50%;
+}
+.hotel-page .hotel-home .m-body .m-show input + input {
+  left: 91%;
+}

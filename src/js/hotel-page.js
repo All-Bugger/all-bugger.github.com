@@ -4,7 +4,10 @@ $.extend({
     'setNumber':function (el){ $(''+el+'').each(function (i,item){ $(item).attr("dataBefore",''+(i+1)+'') }) }
 })
 
+var show = 0;
+
 $(document).ready(
+    
     function () {
         //滑动门响应
         $(".hotel-list-in>li").click(function () {
@@ -19,6 +22,31 @@ $(document).ready(
         var time=year + '-' + month + '-' + day;
         $("#startTime").attr('placeholder',time);
         console.log('132');
+
+        $(".m-show>input:first-child").click(function () {
+            show = (show + 3) % 4;
+            $(".m-show").fadeOut('fast');
+            setTimeout(function () {
+                $(".m-show").css("background-image", 'url(src/img/show' + show + '.jpg)');
+            }, 400);
+            $(".m-show").fadeIn('slow');
+        })
+
+        $(".m-show>input:last-child").click(function () {
+            show = (show + 1) % 4;
+            $(".m-show").fadeOut('fast');
+            setTimeout(function() {
+                $(".m-show").css("background-image", 'url(src/img/show' + show + '.jpg)');
+            },400);
+            $(".m-show").fadeIn('slow');
+        })
+
     }
+
+    
+
+
+
+
 )
 
