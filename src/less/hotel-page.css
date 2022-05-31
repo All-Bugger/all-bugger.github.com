@@ -59,6 +59,7 @@
   background-color: #00ee00;
 }
 .hotel-page .hotel-home .m-body .m-show {
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -75,5 +76,6 @@
   opacity: 50%;
 }
 .hotel-page .hotel-home .m-body .m-show input + input {
-  left: 91%;
+  position: absolute;
+  right: 0;
 }
