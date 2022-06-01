@@ -16,23 +16,23 @@
 .hotel-list ul li::after,
 .hotel-list ul li::before {
   content: " ";
-  width: 0px;
-  height: 0px;
+  width: 0;
+  height: 0;
   position: absolute;
-  border: 0px solid #fff;
+  border: 0 solid #fff;
   transition: all 1s;
 }
 .hotel-list ul li::after {
   top: 1px;
   left: 2px;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
+  border-top: 0 solid black;
+  border-left: 0 solid black;
 }
 .hotel-list ul li::before {
   bottom: 1px;
   right: 2px;
-  border-bottom: 1px solid #2aabd2;
-  border-right: 1px solid #2aabd2;
+  border-bottom: 0 solid #2aabd2;
+  border-right: 0 solid #2aabd2;
 }
 .hotel-list ul li:hover {
   border-top-right-radius: 0;
@@ -41,11 +41,15 @@
 .hotel-list ul li:hover::before {
   width: 100%;
   height: 100%;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
   border-color: black;
 }
 .hotel-list ul li:hover::after {
   width: 100%;
   height: 100%;
+  border-top: 1px solid;
+  border-left: 1px solid;
   border-color: #2aabd2;
 }
 .hotel-list ul .hotel-log h2 {
