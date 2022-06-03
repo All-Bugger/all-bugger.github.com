@@ -79,4 +79,112 @@
   position: absolute;
   right: 0;
 }
+.hotel-page .hotel-book {
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  background-color: #00ee00;
+  height: 400px;
+}
+.hotel-page .hotel-book .m-head {
+  margin: 0 auto;
+  height: 400px;
+}
+.hotel-page .hotel-book .m-head > h1 {
+  position: relative;
+  top: 100px;
+}
+.hotel-page .hotel-book .m-head .time {
+  display: inline-block;
+  position: relative;
+  top: 180px;
+  background-color: #1c94c4;
+  padding: 20px;
+}
+.hotel-page .hotel-book .m-head .time > div {
+  float: left;
+  margin: 0 20px;
+}
+.hotel-page .hotel-book .m-head .time > div div {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.hotel-page .hotel-book .m-head .time > div > input {
+  border: none;
+  font-size: 16px;
+  color: #000;
+  width: 160px;
+}
+.hotel-page .hotel-book .m-head .time > div > input:last-child {
+  width: 130px;
+}
+.hotel-page .hotel-book .m-head .time button {
+  border: 0;
+  padding: 15px 0;
+  background-color: #c19b76;
+  color: #fff;
+  font-size: 22px;
+  width: 194px;
+  text-align: center;
+  outline: none;
+  border: none;
+  margin: 0 40px 0 60px;
+}
+.hotel-page .hotel-book .m-body {
+  margin-top: 30px;
+}
+.hotel-page .hotel-book .m-body .room {
+  position: relative;
+  background-color: #1c94c4;
+  margin-bottom: 54px;
+  height: 365px;
+}
+.hotel-page .hotel-book .m-body .room .book_left {
+  position: absolute;
+  width: 40.57%;
+  float: left;
+  top: 16px;
+  left: 0;
+  height: 315px;
+  background-color: #761c19;
+}
+.hotel-page .hotel-book .m-body .room .book_right {
+  float: right;
+  width: 66.64%;
+  background: #1e7e34;
+  padding: 15px 45px 30px 145px;
+  min-height: 365px;
+}
+.hotel-page .hotel-book .m-body .room .book_right .book_head {
+  margin-bottom: 10px;
+}
+.hotel-page .hotel-book .m-body .room .book_right .book_head h2 {
+  display: inline-block;
+}
+.hotel-page .hotel-book .m-body .room .book_right .book_head span {
+  display: inline-block;
+}
+.hotel-page .hotel-book .m-body .room .book_right .book_body {
+  padding-bottom: 20px;
+  border-bottom: 0.5px #0f0f0f solid;
+}
+.hotel-page .hotel-book .m-body .room .book_right .book_ctn .book_bt {
+  margin-top: 30px;
+  padding: 0 30px 0 40px;
+  height: 60px;
+  background-color: #1c94c4;
+  font-size: 20px;
+}
+.hotel-page .hotel-book .m-body .room .book_right .book_ctn .book_bt .book_bt_left {
+  display: inline-block;
+  margin-top: 5px;
+}
+.hotel-page .hotel-book .m-body .room .book_right .book_ctn .book_bt .book_bt_left span {
+  font-size: 36px;
+}
+.hotel-page .hotel-book .m-body .room .book_right .book_ctn .book_bt .book_bt_right {
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+}
 /*# sourceMappingURL=hotel-page.css.map */
