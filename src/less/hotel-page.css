@@ -187,4 +187,32 @@
   float: right;
   margin-top: 15px;
 }
-/*# sourceMappingURL=hotel-page.css.map */
+.hotel-page .hotel-feedback .m-head {
+  height: 270px;
+  margin-top: 60px;
+  padding-top: 100px;
+  text-align: center;
+  background: #1c94c4;
+}
+.hotel-page .hotel-feedback .m-body {
+  height: 500px;
+  background: #8400ff;
+  display: flex;
+  justify-content: center;
+}
+.hotel-page .hotel-feedback .m-body div {
+  padding: 40px;
+  width: 450px;
+}
+.hotel-page .hotel-feedback .m-body div:first-child {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+.hotel-page .hotel-feedback .m-body div:first-child input {
+  height: 50px;
+  margin-bottom: 20px;
+}
+.hotel-page .hotel-feedback .m-body div:first-child textarea {
+  resize: none;
+}
