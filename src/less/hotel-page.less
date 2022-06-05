@@ -86,7 +86,8 @@
                     top: 45%;
                     height: 100px;
                     width: 50px;
-                    opacity: 50%;
+                    opacity: 30%;
+                    border: none;
 
                     & + input {
                         position: absolute;
@@ -244,14 +245,14 @@
         }
 
         .m-body {
-            height: 500px;
+            height: 430px;
             background: #8400ff;
             display: flex;
             justify-content: center;
 
             div {
                 padding: 40px;
-                width: 450px;
+                width: 600px;
             }
 
             div:first-child {
@@ -260,18 +261,41 @@
                 font-size: 16px;
 
                 input {
-                    height: 50px;
-                    
+                    height: 30px;
                     margin-bottom: 20px;
+                    outline: none;
                 }
 
                 textarea {
                     resize: none;
+                    outline: none;
                 }
             }
 
             div:last-child {
                 
+                h1 {
+                    font-size: 28px;
+
+                    &:first-child {
+                        margin-top: 10px;
+                    }
+                }
+
+                span {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .m-foot {
+            text-align: center;
+
+            button {
+                background-color: #39C5BB;
+                width: 160px;
+                height: 50px;
+                border: none;
             }
         }
     }
