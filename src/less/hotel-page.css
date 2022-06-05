@@ -76,7 +76,8 @@ body {
   top: 45%;
   height: 100px;
   width: 50px;
-  opacity: 50%;
+  opacity: 30%;
+  border: none;
 }
 .hotel-page .hotel-home .m-body .m-show input + input {
   position: absolute;
@@ -197,4 +198,52 @@ body {
   float: right;
   margin-top: 15px;
 }
-/*# sourceMappingURL=hotel-page.css.map */
+.hotel-page .hotel-feedback .m-head {
+  height: 270px;
+  margin-top: 60px;
+  padding-top: 100px;
+  text-align: center;
+  background: #1c94c4;
+}
+.hotel-page .hotel-feedback .m-body {
+  height: 430px;
+  background: #8400ff;
+  display: flex;
+  justify-content: center;
+}
+.hotel-page .hotel-feedback .m-body div {
+  padding: 40px;
+  width: 600px;
+}
+.hotel-page .hotel-feedback .m-body div:first-child {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+.hotel-page .hotel-feedback .m-body div:first-child input {
+  height: 30px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.hotel-page .hotel-feedback .m-body div:first-child textarea {
+  resize: none;
+  outline: none;
+}
+.hotel-page .hotel-feedback .m-body div:last-child h1 {
+  font-size: 28px;
+}
+.hotel-page .hotel-feedback .m-body div:last-child h1:first-child {
+  margin-top: 10px;
+}
+.hotel-page .hotel-feedback .m-body div:last-child span {
+  font-size: 24px;
+}
+.hotel-page .hotel-feedback .m-foot {
+  text-align: center;
+}
+.hotel-page .hotel-feedback .m-foot button {
+  background-color: #39C5BB;
+  width: 160px;
+  height: 50px;
+  border: none;
+}
