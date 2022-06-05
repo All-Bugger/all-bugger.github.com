@@ -40,13 +40,15 @@ $(document).ready(
             }, 400);
             $(".m-show").fadeIn('slow');
         })
+
         $(".serve-book").click(function () {
             $(".hotel-page>div").removeClass('sel');
             $(".hotel-book").addClass('sel');
             $("#book")[0].scrollIntoView({behavior: "smooth", block: "center"});
         })
-        $("#startTime").on("change", function () {
-            var time = $("#startTime").val();
+
+        $(".startTime").on("change", function () {
+            var time = $(".startTime").val();
             var Time = new Date(time);
             // Time.setDate(Time + 1);
             var day = ("0" + Time.getDate()).slice(-2);
@@ -55,28 +57,11 @@ $(document).ready(
             //拼装完整日期格式
             var today = Time.getFullYear() + "-" + (month) + "-" + (day);
             //完成赋值
-            $("#startTime1").val(today);
-            $("#endTime").val(today);
-            $("#endTime").attr("min", today);
-            $("#endTime1").val(today);
-            $("#endTime1").attr("min", today);
+            $(".startTime1").val(today);
+            $(".endTime").val(today);
+            $(".endTime").attr("min", today);
         })
-        $("#startTime1").on("change", function () {
-            var time = $("#startTime1").val();
-            var Time = new Date(time);
-            // Time.setDate(Time + 1);
-            var day = ("0" + Time.getDate()).slice(-2);
-            //格式化月，如果小于9，前面补0
-            var month = ("0" + (Time.getMonth() + 1)).slice(-2);
-            //拼装完整日期格式
-            var today = Time.getFullYear() + "-" + (month) + "-" + (day);
-            //完成赋值
-            $("#startTime").val(today);
-            $("#endTime").val(today);
-            $("#endTime").attr("min", today);
-            $("#endTime1").val(today);
-            $("#endTime1").attr("min", today);
-        })
+
     }
 )
 //入住时间默认赋值
@@ -90,18 +75,14 @@ $(function () {
     //拼装完整日期格式
     var today = now.getFullYear() + "-" + (month) + "-" + (day);
     //完成赋值
-    $("#startTime").val(today);
-    $("#startTime").attr("min", today);
-    $("#endTime").attr("min", today);
-
-    $("#startTime1").val(today);
-    $("#startTime1").attr("min", today);
-    $("#endTime1").attr("min", today);
+    $(".startTime").val(today);
+    $(".startTime").attr("min", today);
+    $(".endTime").attr("min", today);
 })
 //退房时间默认赋值
 $(function () {
-    var time = $("#startTime").val();
+    var time = $(".startTime").val();
     //完成赋值
-    $("#endTime").val(time);
-    $("#endTime1").val(time);
+    $(".endTime").val(time);
+    $(".endTime1").val(time);
 })

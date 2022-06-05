@@ -32,7 +32,7 @@
                     <div class="nav-link" href="#">主页</div>
                 </li>
                 <li class="col-md-1 nav-item">
-                    <div class="nav-link" href="#">餐饮美食</div>
+                    <div class="nav-link" href="#">关于我们</div>
                 </li>
                 <li class="col-md-1 nav-item">
                     <div class="nav-link" href="#">酒店预定</div>
@@ -45,10 +45,10 @@
                     <div class="nav-link" href="#">查询订单</div>
                 </li>
                 <li class="col-md-1 nav-item">
-                    <div class="nav-link" href="#">体验反馈</div>
+                    <div class="nav-link" href="#">优惠活动</div>
                 </li>
                 <li class="col-md-1 nav-item">
-                    <div class="nav-link" href="#">关于我们</div>
+                    <div class="nav-link" href="#">体验反馈</div>
                 </li>
             </ul>
             <div class="m-circle"></div>
@@ -58,7 +58,7 @@
         <div class="hotel-contain">
 
             <div class="hotel-page">
-                <div class="hotel-home">
+                <div class="hotel-home sel">
                     <div class="m-head text-center">
                         <h1>ALL-Bugger Hotel</h1>
                         <div class="time">
@@ -66,19 +66,19 @@
                                 <div class="reserve-title">
                                     <span>入住时间</span>
                                 </div>
-                                <input type="date" id="startTime" max="" min="2022-5-18">
+                                <input type="date" class="startTime" max="" min="2022-5-18">
                             </div>
                             <div class="end-time">
                                 <div class="reserve-title">
                                     <span>退房时间</span>
                                 </div>
-                                <input type="date" id="endTime" max="" min="">
+                                <input type="date" class="endTime" max="" min="">
                             </div>
                             <div class="person-num">
                                 <div class="reserve-title">
                                     <span>房间数量</span>
                                 </div>
-                                <input type="text" id="roomNum" placeholder="请填写房间数量">
+                                <input type="text" class="roomNum" placeholder="请填写房间数量">
                             </div>
                             <button class="serve-book">立即预定</button>
                         </div>
@@ -99,12 +99,35 @@
 
                     </div>
                 </div>
-                <div class="hotel-food">
-                    <div class="m-head">
-
+                <div class="hotel-about">
+                    <div class="m-head text-center">
+                        <h1>ALL-Bugger Hotel</h1>
+                        <div class="time">
+                            <div class="start-time">
+                                <div class="reserve-title">
+                                    <span>入住时间</span>
+                                </div>
+                                <input type="date" class="startTime" max="" min="2022-5-18">
+                            </div>
+                            <div class="end-time">
+                                <div class="reserve-title">
+                                    <span>退房时间</span>
+                                </div>
+                                <input type="date" class="endTime" max="" min="">
+                            </div>
+                            <div class="person-num">
+                                <div class="reserve-title">
+                                    <span>房间数量</span>
+                                </div>
+                                <input type="text" class="roomNum" placeholder="请填写房间数量">
+                            </div>
+                            <button class="serve-book">立即预定</button>
+                        </div>
                     </div>
                     <div class="m-body">
-
+                        <div class="index_title">
+                            关于我们
+                        </div>
                     </div>
                     <div class="m-foot">
 
@@ -118,19 +141,19 @@
                                 <div class="reserve-title">
                                     <span>入住时间</span>
                                 </div>
-                                <input type="date" id="startTime1" max="" min="2022-5-18">
+                                <input type="date" class="startTime" max="" min="2022-5-18">
                             </div>
                             <div class="end-time">
                                 <div class="reserve-title">
                                     <span>退房时间</span>
                                 </div>
-                                <input type="date" id="endTime1" max="" min="">
+                                <input type="date" class="endTime" max="" min="">
                             </div>
                             <div class="person-num">
                                 <div class="reserve-title">
                                     <span>房间数量</span>
                                 </div>
-                                <input type="text" id="roomNum1" placeholder="请填写房间数量">
+                                <input type="text" class="roomNum" placeholder="请填写房间数量">
                             </div>
                             <button class="serve-book">立即预定</button>
                         </div>
@@ -250,8 +273,8 @@
                     </div>
                 </div>
                 <div class="hotel-inquire">
-                    <div class="m-head">
-
+                    <div class="m-head text-center">
+                        <h1>查询订单</h1>
                     </div>
                     <div class="m-body">
 
@@ -260,8 +283,21 @@
 
                     </div>
                 </div>
-                <div class="hotel-feedback sel ">
-                    <div class="m-head">
+                <div class="hotel-activity">
+                    <div class="m-head text-center">
+                        <h1>优惠活动</h1>
+                    </div>
+                    <div class="m-body">
+                        <div class="index_title">
+                            优惠活动
+                        </div>
+                    </div>
+                    <div class="m-foot">
+
+                    </div>
+                </div>
+                <div class="hotel-feedback ">
+                    <div class="m-head text-center">
                         <h1>体验反馈</h1>
                     </div>
                     <div class="m-body">
@@ -286,20 +322,9 @@
                         <button>提交</button>
                     </div>
                 </div>
-                <div class="hotel-about">
-                    <div class="m-head">
-
-                    </div>
-                    <div class="m-body">
-
-                    </div>
-                    <div class="m-foot">
-
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
+
     </div>
 
 

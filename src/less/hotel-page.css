@@ -1,6 +1,9 @@
 body {
   background-color: #F6F2EF;
 }
+h1 {
+  font-size: 40px;
+}
 .hotel-page .sel {
   display: block;
 }
@@ -82,6 +85,79 @@ body {
 .hotel-page .hotel-home .m-body .m-show input + input {
   position: absolute;
   right: 0;
+}
+.hotel-page .hotel-about {
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  background-color: #00ee00;
+  height: 400px;
+}
+.hotel-page .hotel-about .m-head {
+  margin: 0 auto;
+  height: 400px;
+}
+.hotel-page .hotel-about .m-head > h1 {
+  position: relative;
+  top: 100px;
+}
+.hotel-page .hotel-about .m-head .time {
+  display: inline-block;
+  position: relative;
+  top: 180px;
+  background-color: #1c94c4;
+  padding: 20px;
+}
+.hotel-page .hotel-about .m-head .time > div {
+  float: left;
+  margin: 0 20px;
+}
+.hotel-page .hotel-about .m-head .time > div div {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.hotel-page .hotel-about .m-head .time > div > input {
+  border: none;
+  font-size: 16px;
+  color: #000;
+  width: 160px;
+}
+.hotel-page .hotel-about .m-head .time > div > input:last-child {
+  width: 130px;
+}
+.hotel-page .hotel-about .m-head .time button {
+  border: 0;
+  padding: 15px 0;
+  background-color: #c19b76;
+  color: #fff;
+  font-size: 22px;
+  width: 194px;
+  text-align: center;
+  outline: none;
+  border: none;
+  margin: 0 40px 0 60px;
+}
+.hotel-page .hotel-about .m-body {
+  margin-top: 30px;
+}
+.hotel-page .hotel-about .m-body .index_title {
+  font-size: 26px;
+  color: #c19b76;
+  position: relative;
+  padding-left: 80px;
+}
+.hotel-page .hotel-about .m-body .index_title:before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background-color: #c19b76;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
 }
 .hotel-page .hotel-book {
   margin: 0 auto;
@@ -198,12 +274,72 @@ body {
   float: right;
   margin-top: 15px;
 }
+.hotel-page .hotel-inquire {
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  background-color: #00ee00;
+  height: 300px;
+}
+.hotel-page .hotel-inquire .m-head h1 {
+  position: relative;
+  top: 120px;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.hotel-page .hotel-activity {
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  background-color: #00ee00;
+  height: 300px;
+}
+.hotel-page .hotel-activity .m-head {
+  height: 300px;
+}
+.hotel-page .hotel-activity .m-head h1 {
+  position: relative;
+  top: 120px;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.hotel-page .hotel-activity .m-body {
+  margin-top: 30px;
+}
+.hotel-page .hotel-activity .m-body .index_title {
+  font-size: 26px;
+  color: #c19b76;
+  position: relative;
+  padding-left: 80px;
+}
+.hotel-page .hotel-activity .m-body .index_title:before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background-color: #c19b76;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+}
+.hotel-page .hotel-feedback {
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  background-color: #00ee00;
+  height: 300px;
+}
 .hotel-page .hotel-feedback .m-head {
-  height: 270px;
-  margin-top: 60px;
-  padding-top: 100px;
-  text-align: center;
-  background: #1c94c4;
+  height: 300px;
+}
+.hotel-page .hotel-feedback .m-head h1 {
+  position: relative;
+  top: 120px;
+  font-size: 50px;
+  color: #FFFFFF;
 }
 .hotel-page .hotel-feedback .m-body {
   height: 430px;
