@@ -294,11 +294,50 @@ h1 {
   background-color: #00ee00;
   height: 300px;
 }
+.hotel-page .hotel-inquire .m-head {
+  height: 300px;
+}
 .hotel-page .hotel-inquire .m-head h1 {
   position: relative;
   top: 120px;
   font-size: 50px;
   color: #FFFFFF;
+}
+.hotel-page .hotel-inquire .m-body {
+  height: 430px;
+  background: #8400ff;
+  display: flex;
+  justify-content: center;
+}
+.hotel-page .hotel-inquire .m-body div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+.hotel-page .hotel-inquire .m-body div input {
+  height: 50px;
+  width: 300px;
+  margin-top: 30px;
+}
+.hotel-page .hotel-inquire .m-body div button {
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+}
+.hotel-page .hotel-inquire .m-body .m-pop {
+  position: absolute;
+  background: white;
+  width: 300px;
+  height: 400px;
+  display: none;
+}
+.hotel-page .hotel-inquire .m-body .m-pop li {
+  font-size: 20px;
+  font-weight: bold;
+}
+.hotel-page .hotel-inquire .m-body .m-pop * {
+  margin-bottom: 15px;
 }
 .hotel-page .hotel-activity {
   margin: 0 auto;
@@ -409,4 +448,3 @@ h1 {
   height: 50px;
   border: none;
 }
-/*# sourceMappingURL=hotel-page.css.map */

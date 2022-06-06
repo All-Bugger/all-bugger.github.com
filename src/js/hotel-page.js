@@ -71,6 +71,19 @@ $(document).ready(
                 $(".hotel-list-in").css("display","none");
             }
         })
+
+        //查询按钮
+        console.log($(".hotel-inquire .m-body div button"));
+        $(".hotel-inquire .m-body div button").click(function(){
+            
+            $(".m-pop").fadeIn();
+            $(".m-pop").css("display", "flex");
+        })
+
+        $(".m-pop button").click(function(){
+            $(".m-pop").fadeOut();
+        })
+        
     }
 )
 //入住时间默认赋值
