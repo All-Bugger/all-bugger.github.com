@@ -159,6 +159,14 @@ h1 {
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
 }
+.hotel-page .hotel-about .m-body .about_ri .title_about {
+  color: #2c333b !important;
+}
+.hotel-page .hotel-about .m-body .about_ri .about_man {
+  color: #b9b8b7;
+  font-size: 16px;
+  line-height: 32px;
+}
 .hotel-page .hotel-book {
   margin: 0 auto;
   position: relative;
