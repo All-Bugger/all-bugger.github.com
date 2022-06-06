@@ -62,6 +62,15 @@ $(document).ready(
             $(".endTime").attr("min", today);
         })
 
+        $(".m-button").click(function (){
+            var btn = $(".hotel-list-in").css("display");
+            console.log(btn);
+            if(btn === "none"){
+                $(".hotel-list-in").css("display","flex");
+            }else{
+                $(".hotel-list-in").css("display","none");
+            }
+        })
     }
 )
 //入住时间默认赋值
@@ -86,17 +95,3 @@ $(function () {
     $(".endTime").val(time);
     $(".endTime1").val(time);
 })
-
-let urlPrefix = "https://api.aworld.club";
-$.ajax({
-    type: "GET",
-    url: `${urlPrefix}/v1/index`,
-    headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-    },
-    dataType: "json",
-    success: function(data){
-        data.map(function (v,i) {
-            console.log(v)})
-    }
-});

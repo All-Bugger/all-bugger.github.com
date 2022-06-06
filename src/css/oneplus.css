@@ -6,6 +6,6 @@
     .hotel-page > div {width: 80%}
 }
 
-@media screen and (max-width: 980px){
-
+@media screen and (max-width: 1080px){
+    .hotel-page > div {width: 100%}
 }
