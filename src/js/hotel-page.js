@@ -27,18 +27,6 @@ $(document).ready(
             $(".hotel-page>div").eq(i).addClass('sel');
         })
 
-
-        var show = 0;
-        setInterval(function () {
-            console.log(show);
-            show = (show + 1) % 4;
-            $(".m-show").fadeOut('slow');
-            setTimeout(function () {
-                $(".m-show").css("background-image", 'url(src/img/show' + show + '.jpg)');
-            }, 400);
-            $(".m-show").fadeIn('slow');
-        }, 5000);
-
         $(".serve-book").click(function () {
             $(".hotel-page>div").removeClass('sel');
             $(".hotel-book").addClass('sel');
@@ -80,6 +68,23 @@ $(document).ready(
 
         $(".m-pop button").click(function () {
             $(".m-pop").fadeOut();
+        })
+
+        //轮播窗口
+        var show = 0;
+        setInterval(function () {
+            console.log(show);
+            show = (show + 1) % 4;
+            $(".m-show").fadeOut('slow');
+            setTimeout(function () {
+                $(".m-show").css("background-image", 'url(src/img/show' + show + '.jpg)');
+            }, 400);
+            $(".m-show").fadeIn('slow');
+        }, 5000);
+
+        //反馈按钮
+        $(".hotel-page .hotel-feedback .m-body button").click(function(){
+            alert("提交成功！");
         })
 
     }

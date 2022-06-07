@@ -10,6 +10,15 @@ h1 {
 .hotel-page > div {
   display: none;
 }
+.hotel-page .m-foot {
+  padding: 50px;
+  background-color: #2C333B;
+  height: 200px;
+  color: white;
+}
+.hotel-page .m-foot li {
+  margin-bottom: 10px;
+}
 .hotel-page .hotel-home {
   margin: 0 auto;
   position: relative;
@@ -244,7 +253,7 @@ h1 {
 }
 .hotel-page .hotel-about .m-head {
   margin: 0 auto;
-  height: 40vw;
+  height: 430px;
   background: url(../img/head.jpg) no-repeat;
 }
 @media screen and (max-width: 900px) {
@@ -320,6 +329,7 @@ h1 {
 }
 .hotel-page .hotel-about .m-body {
   margin-top: 30px;
+  height: 1000px;
 }
 .hotel-page .hotel-about .m-body .index_title {
   font-size: 26px;
@@ -498,6 +508,7 @@ h1 {
   display: inline-block;
   float: right;
   margin-top: 15px;
+  cursor: pointer;
 }
 .hotel-page .hotel-inquire {
   margin: 0 auto;
@@ -517,7 +528,7 @@ h1 {
 }
 .hotel-page .hotel-inquire .m-body {
   height: 430px;
-  background: #F6F2EF;
+  background: white;
   display: flex;
   justify-content: center;
 }
@@ -536,10 +547,13 @@ h1 {
   margin-top: 30px;
   width: 100px;
   height: 30px;
+  background-color: #C19B76;
+  color: white;
+  border: none;
 }
 .hotel-page .hotel-inquire .m-body .m-pop {
   position: absolute;
-  background: white;
+  background: #F6F2EF;
   width: 300px;
   height: 400px;
   display: none;
@@ -570,6 +584,7 @@ h1 {
 }
 .hotel-page .hotel-activity .m-body {
   margin-top: 30px;
+  height: 1100px;
 }
 .hotel-page .hotel-activity .m-body .index_title {
   font-size: 26px;
@@ -590,18 +605,18 @@ h1 {
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
 }
-.hotel-page .hotel-activity .m-foot {
-  margin-top: 30px;
-}
-.hotel-page .hotel-activity .m-foot .activity img {
+.hotel-page .hotel-activity .m-body .activity img {
   width: 100%;
   height: 300px;
 }
-.hotel-page .hotel-activity .m-foot .activity img:hover {
+.hotel-page .hotel-activity .m-body .activity img:hover {
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0;
   transition: all 0.5s;
   cursor: pointer;
+}
+.hotel-page .hotel-activity .m-foot {
+  margin-top: 30px;
 }
 .hotel-page .hotel-feedback {
   margin: 0 auto;
@@ -620,10 +635,11 @@ h1 {
   color: #FFFFFF;
 }
 .hotel-page .hotel-feedback .m-body {
-  height: 430px;
-  background: #8400ff;
+  height: 550px;
+  background: white;
   display: flex;
   justify-content: center;
+  padding-bottom: 40px;
 }
 .hotel-page .hotel-feedback .m-body div {
   padding: 40px;
@@ -652,13 +668,15 @@ h1 {
 .hotel-page .hotel-feedback .m-body div:last-child span {
   font-size: 24px;
 }
-.hotel-page .hotel-feedback .m-foot {
-  text-align: center;
-}
-.hotel-page .hotel-feedback .m-foot button {
-  background-color: #39C5BB;
+.hotel-page .hotel-feedback .m-body button {
+  background-color: #C19B76;
+  color: white;
   width: 160px;
   height: 50px;
   border: none;
+  position: absolute;
+  top: 865px;
 }
-/*# sourceMappingURL=hotel-page.css.map */
+.hotel-page .hotel-feedback .m-foot {
+  text-align: center;
+}

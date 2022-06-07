@@ -15,6 +15,17 @@ h1 {
         display: none;
     }
 
+    .m-foot {
+        padding: 50px;
+        background-color: #2C333B;
+        height: 200px;
+        color: white;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
     .hotel-home {
         margin: 0 auto;
         position: relative;
@@ -260,12 +271,11 @@ h1 {
         margin: 0 auto;
         position: relative;
         top: 40px;
-        //background-color: #00ee00;
         height: 400px;
 
         .m-head {
             margin: 0 auto;
-            height: 40vw;
+            height: 430px;
             background: url(../img/head.jpg) no-repeat;
             @media screen and (max-width: 900px) {
                 height: 513px;
@@ -339,8 +349,8 @@ h1 {
         }
 
         .m-body {
-            //display: ;
             margin-top: 30px;
+            height: 1000px;
 
             .index_title {
                 font-size: 26px;
@@ -550,6 +560,7 @@ h1 {
                                 display: inline-block;
                                 float: right;
                                 margin-top: 15px;
+                                cursor: pointer;
                             }
                         }
                     }
@@ -564,7 +575,6 @@ h1 {
         margin: 0 auto;
         position: relative;
         top: 40px;
-        //background-color: #00ee00;
         height: 300px;
 
         .m-head {
@@ -581,7 +591,7 @@ h1 {
 
         .m-body {
             height: 430px;
-            background: #F6F2EF;
+            background: white;
             display: flex;
             justify-content: center;
 
@@ -601,12 +611,15 @@ h1 {
                     margin-top: 30px;
                     width: 100px;
                     height: 30px;
+                    background-color: #C19B76;
+                    color: white;
+                    border: none;
                 }
             }
 
             .m-pop {
                 position: absolute;
-                background: white;
+                background: #F6F2EF;
                 width: 300px;
                 height: 400px;
                 display: none;
@@ -645,6 +658,7 @@ h1 {
 
         .m-body {
             margin-top: 30px;
+            height: 1100px;
 
             .index_title {
                 font-size: 26px;
@@ -666,10 +680,6 @@ h1 {
                 -webkit-transform: translateY(-50%);
                 -moz-transform: translateY(-50%);
             }
-        }
-
-        .m-foot {
-            margin-top: 30px;
 
             .activity {
                 img {
@@ -684,6 +694,12 @@ h1 {
                     cursor: pointer;
                 }
             }
+        }
+
+        .m-foot {
+            margin-top: 30px;
+
+            
         }
     }
 
@@ -707,10 +723,11 @@ h1 {
         }
 
         .m-body {
-            height: 430px;
-            background: #8400ff;
+            height: 550px;
+            background: white;
             display: flex;
             justify-content: center;
+            padding-bottom: 40px;
 
             div {
                 padding: 40px;
@@ -748,17 +765,20 @@ h1 {
                     font-size: 24px;
                 }
             }
+
+            button {
+                background-color: #C19B76;
+                color: white;
+                width: 160px;
+                height: 50px;
+                border: none;
+                position: absolute;
+                top: 865px;
+            }
         }
 
         .m-foot {
             text-align: center;
-
-            button {
-                background-color: #39C5BB;
-                width: 160px;
-                height: 50px;
-                border: none;
-            }
         }
     }
 }
