@@ -1,5 +1,5 @@
 .hotel-list {
-  z-index: 1;
+  z-index: 2;
 }
 .hotel-list > button {
   margin-left: 20px;
@@ -137,4 +137,3 @@
     top: 51px;
   }
 }
-/*# sourceMappingURL=hotel-list.css.map */
