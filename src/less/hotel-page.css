@@ -329,7 +329,12 @@ h1 {
 }
 .hotel-page .hotel-about .m-body {
   margin-top: 30px;
-  height: 1000px;
+  height: 910px;
+}
+@media screen and (max-width: 992px) {
+  .hotel-page .hotel-about .m-body {
+    height: 1600px;
+  }
 }
 .hotel-page .hotel-about .m-body .index_title {
   font-size: 26px;
@@ -350,15 +355,21 @@ h1 {
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
 }
-.hotel-page .hotel-about .m-body .about_le img {
+.hotel-page .hotel-about .m-body .about_le .about_le_in {
+  padding-left: 30px;
+}
+.hotel-page .hotel-about .m-body .about_le .about_le_in img {
   margin-top: 30px;
   height: 600px;
   width: 85%;
 }
-.hotel-page .hotel-about .m-body .about_ri .title_about {
+.hotel-page .hotel-about .m-body .about_ri .about_ri_in {
+  padding-left: 30px;
+}
+.hotel-page .hotel-about .m-body .about_ri .about_ri_in .title_about {
   color: #2c333b !important;
 }
-.hotel-page .hotel-about .m-body .about_ri .about_man {
+.hotel-page .hotel-about .m-body .about_ri .about_ri_in .about_man {
   color: #b9b8b7;
   font-size: 16px;
   line-height: 32px;
@@ -536,7 +547,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 .hotel-page .hotel-inquire .m-body div input {
   height: 50px;
@@ -545,8 +556,9 @@ h1 {
 }
 .hotel-page .hotel-inquire .m-body div button {
   margin-top: 30px;
-  width: 100px;
-  height: 30px;
+  width: 140px;
+  height: 50px;
+  font-size: 20px;
   background-color: #C19B76;
   color: white;
   border: none;
@@ -557,7 +569,7 @@ h1 {
   width: 300px;
   height: 400px;
   display: none;
-  top: 425px;
+  top: 417px;
 }
 .hotel-page .hotel-inquire .m-body .m-pop li {
   font-size: 20px;
@@ -565,6 +577,15 @@ h1 {
 }
 .hotel-page .hotel-inquire .m-body .m-pop * {
   margin-bottom: 15px;
+}
+.hotel-page .hotel-inquire .m-body .m-pop button {
+  margin-top: 10px;
+  width: 140px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #C19B76;
+  color: white;
+  border: none;
 }
 .hotel-page .hotel-activity {
   margin: 0 auto;
@@ -585,6 +606,11 @@ h1 {
 .hotel-page .hotel-activity .m-body {
   margin-top: 30px;
   height: 1100px;
+}
+@media screen and (max-width: 992px) {
+  .hotel-page .hotel-activity .m-body {
+    height: 2060px;
+  }
 }
 .hotel-page .hotel-activity .m-body .index_title {
   font-size: 26px;
@@ -680,3 +706,4 @@ h1 {
 .hotel-page .hotel-feedback .m-foot {
   text-align: center;
 }
+/*# sourceMappingURL=hotel-page.css.map */
