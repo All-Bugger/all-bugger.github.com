@@ -19,20 +19,23 @@ h1 {
         margin: 0 auto;
         position: relative;
         top: 40px;
-        background-color: #00ee00;
         height: 400px;
 
         .m-head {
             margin: 0 auto;
             height: 400px;
-            //width: 200px;
+            background: white;
+            
 
             > h1 {
                 position: relative;
                 top: 100px;
+                color: white;
+                z-index: 10;
             }
 
             .time {
+                z-index: 10;
                 display: inline-block;
                 position: relative;
                 top: 180px;
@@ -72,37 +75,104 @@ h1 {
                     border: none;
                     margin: 0 40px 0 60px;
                 }
+                
             }
 
-        }
-
-        .m-body {
-            background-color: #00ee00;
-
             .m-show {
-                position: relative;
-                margin-left: auto;
-                margin-right: auto;
-                width: 60%;
                 height: 30vw;
+                width: 100%;
+                position: absolute;
+                top: 0;
                 background-size: 100% 100%;
                 background-position: 50% 50%;
                 background-image: url(../img/show0.jpg);
+            }
+            
+            position: relative;
+            width: 100%;
+            height: 30vw;
+        }
 
-                input {
-                    position: relative;
-                    top: 45%;
-                    height: 100px;
-                    width: 50px;
-                    opacity: 30%;
-                    border: none;
+        .m-body {
+            padding-top: 10px;
+            background: #F6F2EF;
 
-                    & + input {
-                        position: absolute;
-                        right: 0;
+            .index_title {
+                margin-top: 30px;
+                font-size: 26px;
+                color: #c19b76;
+                position: relative;
+                padding-left: 80px;
+            }
+
+            .index_title:before {
+                content: "";
+                display: block;
+                width: 80px;
+                height: 1px;
+                background-color: #c19b76;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+            }
+
+            &>div:nth-child(2){
+                display: flex;
+                justify-content: center;
+
+                .m-text {
+                    width: 700px;
+                    height: 500px;
+
+                    div {
+                        padding: 20px;
+                        font-size: 20px;
+                        letter-spacing: 4px;
+                        
+
+                        &:last-child {
+                            background-color: white;
+                            margin-top: 50px;
+                            height: 230px;
+
+                            a {
+                                position: absolute;
+                                margin-top: 30px;
+
+                                b {
+                                    width: 51px;
+                                    height: 13px;
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    background: url(http://www.yaodahotel.com/aspx/main/images/index_about_more.png) no-repeat center center;
+                                    background-size: contain;
+                                    margin-right: 10px;
+                                }
+
+                                span {
+                                    letter-spacing: normal;
+                                    color: #C19B76;
+
+                                    &:hover {
+                                        text-decoration: none;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
+                .m-img {
+                    width: 500px;
+                    height: 500px;
+
+                    img {
+
+                    }
+                }
             }
         }
     }
@@ -117,7 +187,7 @@ h1 {
         .m-head {
             margin: 0 auto;
             height: 400px;
-            //width: 200px;
+            background: url(../img/head.jpg) no-repeat;
 
             > h1 {
                 position: relative;
@@ -228,7 +298,7 @@ h1 {
         .m-head {
             margin: 0 auto;
             height: 400px;
-            //width: 200px;
+            background: url(../img/head.jpg) no-repeat;
 
             > h1 {
                 position: relative;
@@ -374,7 +444,9 @@ h1 {
         height: 300px;
 
         .m-head {
-            height: 300px;
+            height: 400px;
+            background: url(../img/head.jpg) no-repeat;
+
             h1 {
                 position: relative;
                 top: 120px;
@@ -385,7 +457,7 @@ h1 {
 
         .m-body {
             height: 430px;
-            background: #8400ff;
+            background: #F6F2EF;
             display: flex;
             justify-content: center;
             
@@ -414,6 +486,7 @@ h1 {
                 width: 300px;
                 height: 400px;
                 display: none;
+                top: 425px;
 
                 li {
                     font-size: 20px;
@@ -435,7 +508,8 @@ h1 {
         height: 300px;
 
         .m-head {
-            height: 300px;
+            height: 400px;
+            background: url(../img/head.jpg) no-repeat;
 
             h1 {
                 position: relative;
@@ -495,7 +569,8 @@ h1 {
         height: 300px;
 
         .m-head {
-            height: 300px;
+            height: 400px;
+            background: url(../img/head.jpg) no-repeat;
 
             h1 {
                 position: relative;

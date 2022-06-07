@@ -23,23 +23,17 @@ $(document).ready(
             $(".hotel-page>div").eq(i).addClass('sel');
         })
 
-        $(".m-show>input:first-child").click(function () {
-            show = (show + 3) % 4;
-            $(".m-show").fadeOut('fast');
-            setTimeout(function () {
-                $(".m-show").css("background-image", 'url(src/img/show' + show + '.jpg)');
-            }, 400);
-            $(".m-show").fadeIn('slow');
-        })
 
-        $(".m-show>input:last-child").click(function () {
+        var show = 0;
+        setInterval(function () {
+            console.log(show);
             show = (show + 1) % 4;
-            $(".m-show").fadeOut('fast');
+            $(".m-show").fadeOut('slow');
             setTimeout(function () {
                 $(".m-show").css("background-image", 'url(src/img/show' + show + '.jpg)');
             }, 400);
             $(".m-show").fadeIn('slow');
-        })
+        }, 5000);
 
         $(".serve-book").click(function () {
             $(".hotel-page>div").removeClass('sel');
