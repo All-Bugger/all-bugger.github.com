@@ -19,6 +19,10 @@ $(document).ready(
         //滑动门响应
         $(".hotel-list-in>li").click(function () {
             var i = $(".hotel-list-in>li").index(this);
+            var w = $(window).width();
+            if (w <= 1080) {
+                $(".hotel-list-in").css("display", "none");
+            }
             $(".hotel-page>div").removeClass('sel');
             $(".hotel-page>div").eq(i).addClass('sel');
         })
@@ -56,28 +60,28 @@ $(document).ready(
             $(".endTime").attr("min", today);
         })
 
-        $(".m-button").click(function (){
+        $(".m-button").click(function () {
             var btn = $(".hotel-list-in").css("display");
             console.log(btn);
-            if(btn === "none"){
-                $(".hotel-list-in").css("display","flex");
-            }else{
-                $(".hotel-list-in").css("display","none");
+            if (btn === "none") {
+                $(".hotel-list-in").css("display", "flex");
+            } else {
+                $(".hotel-list-in").css("display", "none");
             }
         })
 
         //查询按钮
         console.log($(".hotel-inquire .m-body div button"));
-        $(".hotel-inquire .m-body div button").click(function(){
-            
+        $(".hotel-inquire .m-body div button").click(function () {
+
             $(".m-pop").fadeIn();
             $(".m-pop").css("display", "flex");
         })
 
-        $(".m-pop button").click(function(){
+        $(".m-pop button").click(function () {
             $(".m-pop").fadeOut();
         })
-        
+
     }
 )
 //入住时间默认赋值
