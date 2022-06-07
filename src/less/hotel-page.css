@@ -14,18 +14,24 @@ h1 {
   margin: 0 auto;
   position: relative;
   top: 40px;
-  background-color: #00ee00;
   height: 400px;
 }
 .hotel-page .hotel-home .m-head {
   margin: 0 auto;
   height: 400px;
+  background: white;
+  position: relative;
+  width: 100%;
+  height: 30vw;
 }
 .hotel-page .hotel-home .m-head > h1 {
   position: relative;
   top: 100px;
+  color: white;
+  z-index: 1;
 }
 .hotel-page .hotel-home .m-head .time {
+  z-index: 1;
   display: inline-block;
   position: relative;
   top: 180px;
@@ -61,30 +67,80 @@ h1 {
   border: none;
   margin: 0 40px 0 60px;
 }
-.hotel-page .hotel-home .m-body {
-  background-color: #00ee00;
-}
-.hotel-page .hotel-home .m-body .m-show {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
+.hotel-page .hotel-home .m-head .m-show {
   height: 30vw;
+  width: 100%;
+  position: absolute;
+  top: 0;
   background-size: 100% 100%;
   background-position: 50% 50%;
   background-image: url(../img/show0.jpg);
 }
-.hotel-page .hotel-home .m-body .m-show input {
-  position: relative;
-  top: 45%;
-  height: 100px;
-  width: 50px;
-  opacity: 30%;
-  border: none;
+.hotel-page .hotel-home .m-body {
+  padding-top: 10px;
+  background: #F6F2EF;
 }
-.hotel-page .hotel-home .m-body .m-show input + input {
+.hotel-page .hotel-home .m-body .index_title {
+  margin-top: 30px;
+  font-size: 26px;
+  color: #c19b76;
+  position: relative;
+  padding-left: 80px;
+}
+.hotel-page .hotel-home .m-body .index_title:before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 1px;
+  background-color: #c19b76;
   position: absolute;
-  right: 0;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+}
+.hotel-page .hotel-home .m-body > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.hotel-page .hotel-home .m-body > div:nth-child(2) .m-text {
+  width: 700px;
+  height: 500px;
+}
+.hotel-page .hotel-home .m-body > div:nth-child(2) .m-text div {
+  padding: 20px;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.hotel-page .hotel-home .m-body > div:nth-child(2) .m-text div:last-child {
+  background-color: white;
+  margin-top: 50px;
+  height: 230px;
+}
+.hotel-page .hotel-home .m-body > div:nth-child(2) .m-text div:last-child a {
+  position: absolute;
+  margin-top: 30px;
+}
+.hotel-page .hotel-home .m-body > div:nth-child(2) .m-text div:last-child a b {
+  width: 51px;
+  height: 13px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(http://www.yaodahotel.com/aspx/main/images/index_about_more.png) no-repeat center center;
+  background-size: contain;
+  margin-right: 10px;
+}
+.hotel-page .hotel-home .m-body > div:nth-child(2) .m-text div:last-child a span {
+  letter-spacing: normal;
+  color: #C19B76;
+}
+.hotel-page .hotel-home .m-body > div:nth-child(2) .m-text div:last-child a span:hover {
+  text-decoration: none;
+}
+.hotel-page .hotel-home .m-body > div:nth-child(2) .m-img {
+  width: 500px;
+  height: 500px;
 }
 .hotel-page .hotel-about {
   margin: 0 auto;
@@ -96,6 +152,7 @@ h1 {
 .hotel-page .hotel-about .m-head {
   margin: 0 auto;
   height: 400px;
+  background: url(../img/head.jpg) no-repeat;
 }
 .hotel-page .hotel-about .m-head > h1 {
   position: relative;
@@ -182,6 +239,7 @@ h1 {
 .hotel-page .hotel-book .m-head {
   margin: 0 auto;
   height: 400px;
+  background: url(../img/head.jpg) no-repeat;
 }
 .hotel-page .hotel-book .m-head > h1 {
   position: relative;
@@ -295,7 +353,8 @@ h1 {
   height: 300px;
 }
 .hotel-page .hotel-inquire .m-head {
-  height: 300px;
+  height: 400px;
+  background: url(../img/head.jpg) no-repeat;
 }
 .hotel-page .hotel-inquire .m-head h1 {
   position: relative;
@@ -305,7 +364,7 @@ h1 {
 }
 .hotel-page .hotel-inquire .m-body {
   height: 430px;
-  background: #8400ff;
+  background: #F6F2EF;
   display: flex;
   justify-content: center;
 }
@@ -331,6 +390,7 @@ h1 {
   width: 300px;
   height: 400px;
   display: none;
+  top: 425px;
 }
 .hotel-page .hotel-inquire .m-body .m-pop li {
   font-size: 20px;
@@ -347,7 +407,8 @@ h1 {
   height: 300px;
 }
 .hotel-page .hotel-activity .m-head {
-  height: 300px;
+  height: 400px;
+  background: url(../img/head.jpg) no-repeat;
 }
 .hotel-page .hotel-activity .m-head h1 {
   position: relative;
@@ -398,7 +459,8 @@ h1 {
   height: 300px;
 }
 .hotel-page .hotel-feedback .m-head {
-  height: 300px;
+  height: 400px;
+  background: url(../img/head.jpg) no-repeat;
 }
 .hotel-page .hotel-feedback .m-head h1 {
   position: relative;
