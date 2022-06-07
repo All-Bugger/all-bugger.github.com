@@ -159,7 +159,7 @@ h1 {
 }
 .hotel-page .hotel-home .m-body > div:nth-child(2) .m-text {
   width: 700px;
-  height: 500px;
+  height: 450px;
 }
 @media screen and (max-width: 900px) {
   .hotel-page .hotel-home .m-body > div:nth-child(2) .m-text {
@@ -242,7 +242,7 @@ h1 {
 }
 @media screen and (max-width: 900px) {
   .hotel-page .hotel-home .m-body > div:nth-child(2) .m-img {
-    width: 100%;
+    margin: 0 auto;
   }
 }
 .hotel-page .hotel-about {
@@ -634,12 +634,13 @@ h1 {
 .hotel-page .hotel-activity .m-body .activity img {
   width: 100%;
   height: 300px;
+  transition: all 1s;
 }
 .hotel-page .hotel-activity .m-body .activity img:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-  opacity: 0;
-  transition: all 0.5s;
+  background-color: black;
+  transition: all 1s;
   cursor: pointer;
+  filter: brightness(50%);
 }
 .hotel-page .hotel-activity .m-foot {
   margin-top: 30px;
