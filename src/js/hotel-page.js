@@ -83,7 +83,7 @@ $(document).ready(
         }, 5000);
 
         //反馈按钮
-        $(".hotel-page .hotel-feedback .m-body button").click(function(){
+        $(".hotel-page .hotel-feedback .m-body button").click(function () {
             alert("提交成功！");
         })
 
